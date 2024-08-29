@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Tabla Compleja</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td colspan="4">
+                <a href="#">Opcion 1</a>
+                <a href="#">Opcion 2</a>
+                <a href="#">Opcion 3</a>
+                <a href="#">Opcion 4</a>
+                <a href="#">Opcion 5</a>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="5">
+                <img src="1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
+            </td>
+            <td><img src="2.jpeg" alt="Imagen 1"></td>
+            <td><img src="10.png" alt="Imagen 2"></td>
+            <td><img src="11.jpeg" alt="Imagen 3"></td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="3">
+                <img src="3.png" alt="Imagen 4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </td>
+            <td><img src="4.jpeg" alt="Imagen 5"></td>
+        </tr>
+        <tr>
+            <td><img src="5.jpg" alt="Imagen 6"></td>
+        </tr>
+        <tr>
+            <td><img src="6.jpg" alt="Imagen 7"></td>
+        </tr>
+        <tr>
+            <td><img src="7.avif" alt="Imagen 8"></td>
+            <td><img src="8.png" alt="Imagen 9"></td>
+            <td><img src="9.png" alt="Imagen 10"></td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>
